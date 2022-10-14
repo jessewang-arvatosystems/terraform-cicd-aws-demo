@@ -43,6 +43,11 @@ variable "codebuild_apply_project_name" {
   default = "infra-vpc-codebuild-project-apply"
 }
 
+variable "codebuild_destroy_project_name" {
+  type    = string
+  default = "infra-vpc-codebuild-project-destroy"
+}
+
 variable "codepipeline_name" {
   type    = string
   default = "infra-vpc-codepipeline"
