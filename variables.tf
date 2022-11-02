@@ -52,3 +52,8 @@ variable "codepipeline_name" {
   type    = string
   default = "infra-vpc-codepipeline"
 }
+
+variable "github_oidc_role_name" {
+  type    = string
+  default = "github-oidc-role"
+}
